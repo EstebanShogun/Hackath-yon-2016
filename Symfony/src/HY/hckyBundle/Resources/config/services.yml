@@ -1,0 +1,4 @@
+services:
+#    h_yhcky.example:
+#        class: HY\hckyBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

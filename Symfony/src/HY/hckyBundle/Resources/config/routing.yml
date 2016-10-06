@@ -1,0 +1,7 @@
+h_yhcky_homepage:
+    path:     /
+    defaults: { _controller: HYhckyBundle:Default:index }
+    
+Accueil:
+    path:   /accueil/index
+    defaults: {_controller: HYhckyBundle:Advert:index }
