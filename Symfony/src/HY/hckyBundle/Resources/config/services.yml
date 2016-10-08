@@ -2,3 +2,14 @@ services:
 #    h_yhcky.example:
 #        class: HY\hckyBundle\Example
 #        arguments: ["@service_id", "plain_value", %parameter%]
+
+parameters:
+    database_host: 149.202.160.198
+    database_port: null
+    database_name: hky_atlantic
+    database_user: adminGotoL
+    database_password: pwgoto2016
+    mailer_transport: smtp
+    mailer_host: 149.202.160.198
+    mailer_host: null
+    mailer_host: null
