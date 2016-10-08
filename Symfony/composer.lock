@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "65580e58578ec4b90457be530eec66b5",
-    "content-hash": "c1dada088a2d74649cc2320a8c77a94f",
+    "hash": "0c0569c0a175b4569494b2751e40f5b6",
+    "content-hash": "c4c9a03f64775a9aecfefd477176b444",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -774,6 +774,51 @@
                 "orm"
             ],
             "time": "2016-09-10 18:51:13"
+        },
+        {
+            "name": "hautzi/system-mail-bundle",
+            "version": "0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/christoph-hautzinger/SystemMailBundle.git",
+                "reference": "5fffcb0bda11c1096ad2c80973b049c3b507fe33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/christoph-hautzinger/SystemMailBundle/zipball/5fffcb0bda11c1096ad2c80973b049c3b507fe33",
+                "reference": "5fffcb0bda11c1096ad2c80973b049c3b507fe33",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Hautzi\\SystemMailBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Hautzinger",
+                    "email": "mail@hautzinger.info"
+                }
+            ],
+            "description": "This Bundle provides a nice abstraction for sending system emails",
+            "homepage": "https://github.com/christoph-hautzinger/SystemMailBundle",
+            "keywords": [
+                "mail"
+            ],
+            "time": "2015-12-01 16:28:58"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -2080,8 +2125,5 @@
     "platform": {
         "php": ">=5.5.9"
     },
-    "platform-dev": [],
-    "platform-overrides": {
-        "php": "5.5.9"
-    }
+    "platform-dev": []
 }

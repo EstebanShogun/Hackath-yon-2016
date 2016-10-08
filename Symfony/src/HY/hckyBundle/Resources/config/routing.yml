@@ -3,5 +3,5 @@ h_yhcky_homepage:
     defaults: { _controller: HYhckyBundle:Default:index }
     
 Accueil:
-    path:   /accueil/index
+    path:   /accueil
     defaults: {_controller: HYhckyBundle:Advert:index }
