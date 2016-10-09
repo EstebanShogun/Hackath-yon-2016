@@ -14,9 +14,19 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 class AdvertController extends \OC\PlatformBundle\Controller
 {
-    public function indexAction()
+    public function indexAction(Request $request)
     {
-        return new Response("Faut trouver une idée !");
+        $advert = new Advert;
+        
+        $formBuilder = $this->get('form.factory')->createBuilder(FormType::class, $advert);
+        $formBuilder        
+                ->add('mail', TextType::class)
+        ;
+        $form = $formBuilder->getForm();
+
+    return $this->render('OCPlatformBundle:Advert:add.html.twig', array(
+      'form' => $form->createView()
+    ));
     }
 }
 
