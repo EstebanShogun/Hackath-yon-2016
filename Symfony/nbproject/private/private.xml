@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/src/HY/hckyBundle/Resources/config/services.yml</file>
+            <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/web/app.php</file>
             <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/src/HY/hckyBundle/Resources/config/routing.yml</file>
             <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/src/HY/hckyBundle/Resources/views/Default/index.html.twig</file>
             <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/src/HY/hckyBundle/Controller/AdvertController.php</file>
-            <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/src/HY/hckyBundle/Controller/DefaultController.php</file>
         </group>
     </open-files>
 </project-private>
