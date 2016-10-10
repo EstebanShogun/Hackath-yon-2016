@@ -24,7 +24,7 @@ class DefaultController extends \HY\hckyBundle\Controller
         ;
         $form = $formBuilder->getForm();
 
-    return $this->render('OCPlatformBundle:Advert:add.html.twig', array(
+    return $this->render('HYhckyBundle:Default:index.html.twig', array(
       'form' => $form->createView()
     ));
     }

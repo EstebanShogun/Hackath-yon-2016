@@ -12,7 +12,7 @@ use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 
-class AdvertController extends \OC\PlatformBundle\Controller
+class AdvertController extends \HY\hckyBundle\Controller
 {
     public function indexAction(Request $request)
     {
@@ -24,7 +24,7 @@ class AdvertController extends \OC\PlatformBundle\Controller
         ;
         $form = $formBuilder->getForm();
 
-    return $this->render('OCPlatformBundle:Advert:add.html.twig', array(
+    return $this->render('HYhckyBundle:Advert:add.html.twig', array(
       'form' => $form->createView()
     ));
     }

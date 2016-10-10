@@ -7,7 +7,9 @@
             <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/web/app.php</file>
             <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/src/HY/hckyBundle/Resources/config/routing.yml</file>
             <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/src/HY/hckyBundle/Resources/views/Default/index.html.twig</file>
+            <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/app/config/parameters.yml</file>
             <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/src/HY/hckyBundle/Controller/AdvertController.php</file>
+            <file>file:/var/www/html/gitHKY/Hackath-yon-2016/Symfony/src/HY/hckyBundle/Controller/DefaultController.php</file>
         </group>
     </open-files>
 </project-private>
