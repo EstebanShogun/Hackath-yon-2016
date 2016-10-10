@@ -29,4 +29,3 @@ class DefaultController extends \HY\hckyBundle\Controller
     ));
     }
 }
-

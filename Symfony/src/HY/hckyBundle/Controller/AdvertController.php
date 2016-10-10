@@ -29,4 +29,3 @@ class AdvertController extends \HY\hckyBundle\Controller
     ));
     }
 }
-
